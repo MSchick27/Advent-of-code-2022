@@ -12,7 +12,6 @@ for item in datalist:
     cal = sum(sumlist)
     clist.append(cal)
 
-
 clist.sort()
 print(clist[-1])
 
