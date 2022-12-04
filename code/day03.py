@@ -1,5 +1,4 @@
 #%%Part A
-
 bags = open('code/day03_puzzleinput.txt','r').read().split('\n')
 print(bags)
 wiki='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -14,6 +13,9 @@ for bag in bags:
             break
 
 print(sum(c))
+
+
+
 
 #%%PART B
 c2=[]
